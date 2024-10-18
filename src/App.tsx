@@ -57,7 +57,9 @@ function App() {
       ],
     },
   ];
-  const router = createBrowserRouter(paths);
+  const router = createBrowserRouter(paths, {
+    basename: "/mhstore",
+  });
 
   return (
     <>
