@@ -3,8 +3,7 @@ export function isNameValid(name: FormDataEntryValue) {
 }
 
 export function isEmailValid(email: FormDataEntryValue) {
-  const regex = /^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$/g;
-  return regex.test(email);
+  return email !== "";
 }
 
 export function isAddressValid(address: FormDataEntryValue) {

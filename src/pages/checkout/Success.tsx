@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Success({ closeModal }) {
-
+function Success({ closeModal }: { closeModal: () => void }) {
   return (
     <div className="cart">
       <h2>Success</h2>
