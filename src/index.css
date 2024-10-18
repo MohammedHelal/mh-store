@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap&family=Oswald:wght@200..700&display=swap&family=Nerko+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap&family=Playpen+Sans:wght@100..800&display=swap&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+/*rgba(15, 118, 109, 0.5);*/
+:root {
+  font-family: "Noto Sans", "Lucida Sans Regular", "Lucida Grande", Verdana,
+    "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.75px;
+  font-weight: 300;
+
+  --background-color: #ffffff;
+  --text-color: #213547;
+  --btn-background: #f9f9f9;
+
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Pirata One", "Noto Sans", "Lucida Sans Regular", "Lucida Grande",
+    Verdana, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Pirata One", "Noto Sans", "Lucida Sans Regular", "Lucida Grande",
+    Verdana, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 15px 0 50px;
+}
+
+h3 {
+  font-family: "Pirata One", "Noto Sans", "Lucida Sans Regular", "Lucida Grande",
+    Verdana, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  margin: 15px 0;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 15px 0;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 15px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  margin: 15px 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.25rem 1.25rem;
+  background-color: #14b8a6;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f766e;
+}
+
+.modal {
+  background-color: #e4ddd4;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  width: 80%;
+  max-width: 40rem;
+  animation: fade-slide-up 0.3s ease-out forwards;
+}
+
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="light"] {
+  --background-color: #ffffff;
+  --text-color: #213547;
+  --btn-background: #f9f9f9;
+}
+
+[data-theme="dark"] {
+  --background-color: #242424;
+  --text-color: #ffffff;
+  --btn-background: #1a1a1a;
+}
+
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+
+  h3 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
