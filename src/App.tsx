@@ -44,10 +44,6 @@ function App() {
       children: [
         {
           index: true,
-          element: <Home />,
-        },
-        {
-          path: "products",
           element: <Products />,
         },
         {

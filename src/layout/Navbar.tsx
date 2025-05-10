@@ -38,7 +38,7 @@ function Navbar() {
               </NavLink>
             </li>
             <li className="inline py-[10px] px-[25px] mx-[50px]">
-              <NavLink to="/products" className="stroke">
+              <NavLink to="/" className="stroke">
                 Products
               </NavLink>
             </li>
@@ -58,7 +58,7 @@ function Navbar() {
           <Cart modalOrNot={modalOrNot} closeModal={closeModal} />
         </Modal>
       </nav>
-      <div className="mb-[50px] mx-[50px]">
+      <div className="mb-[50px] mx-[60px]">
         <hr className="" />
       </div>
     </>

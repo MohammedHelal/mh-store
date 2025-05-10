@@ -629,6 +629,11 @@ video {
   margin-right: 50px;
 }
 
+.mx-\[60px\]{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
 .mx-\[8px\]{
   margin-left: 8px;
   margin-right: 8px;
@@ -667,16 +672,6 @@ video {
 .my-\[5px\]{
   margin-top: 5px;
   margin-bottom: 5px;
-}
-
-.mx-\[25px\]{
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-.mx-\[60px\]{
-  margin-left: 60px;
-  margin-right: 60px;
 }
 
 .mb-0{
@@ -811,6 +806,10 @@ video {
   width: 50%;
 }
 
+.w-\[125px\]{
+  width: 125px;
+}
+
 .w-\[175px\]{
   width: 175px;
 }
@@ -821,6 +820,18 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[250px\]{
+  width: 250px;
+}
+
+.w-\[200px\]{
+  width: 200px;
+}
+
+.w-\[500px\]{
+  width: 500px;
 }
 
 .max-w-\[1440px\]{
@@ -1084,6 +1095,14 @@ video {
   padding-left: 25px;
 }
 
+.pr-\[10px\]{
+  padding-right: 10px;
+}
+
+.pr-\[50px\]{
+  padding-right: 50px;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1206,7 +1225,7 @@ h1 {
   font-family: "Montserrat", "Noto Sans", "Lucida Sans Regular", "Lucida Grande",
     Verdana, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 55px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 60px;
   margin: 15px 0;
 }
@@ -1617,6 +1636,10 @@ button:hover {
 
   .lg\:w-\[calc\(100\%-64px\)\]{
     width: calc(100% - 64px);
+  }
+
+  .lg\:w-auto{
+    width: auto;
   }
 
   .lg\:max-w-\[350px\]{
