@@ -119,7 +119,7 @@ function Products() {
   };
 
   return (
-    <section className="max-w-[1440px] mx-auto min-h-[600px] lg:flex">
+    <section className="max-w-[1440px] my-[50px] mx-auto min-h-[600px] lg:flex">
       <Filter
         categoriesFLState={categoriesFLState}
         ratingState={ratingState}

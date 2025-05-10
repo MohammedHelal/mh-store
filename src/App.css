@@ -10,7 +10,6 @@ ul li a {
   display: block;
   padding: 10px 0;
   text-decoration: none;
-  color: #ccc;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
@@ -18,7 +17,7 @@ ul li a {
 ul li a,
 ul li a:after,
 ul li a:before {
-  transition: all 0.5s;
+  transition: all 0.25s;
 }
 ul li a:hover {
   color: #14b8a6;

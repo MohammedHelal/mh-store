@@ -23,29 +23,29 @@ function Navbar() {
 
   return (
     <>
-      <nav className="w-full bg-[#213547] mb-[100px]">
-        <div className="flex items-center justify-between max-w-[1440px] mx-auto py-2 text-white">
-          <div className="w-[60px] h-[60px] m-2.5 flex items-center rounded-full bg-gray-700 cursor-pointer">
+      <nav className="w-full mb-[0px]">
+        <div className=" max-w-[1440px] mx-auto py-2 text-black">
+          <div className="w-[60px] h-[60px] my-2.5 mx-auto flex items-center rounded-full bg-gray-700 cursor-pointer">
             <img className="w-[60px] h-[60px] " src={Logo} alt="Logo" />
           </div>
           <DropDown cartLength={cart.length} openModal={openModal} />
           <ul
-            className={`hidden md:flex items-center justify-between mr-[15px] list-none m-0 lg:h-[80px]`}
+            className={`hidden md:flex items-center justify-center list-none m-0 lg:h-[80px]`}
           >
-            <li className="inline py-[10px] px-[25px]">
+            <li className="inline py-[10px] px-[25px] mx-[50px]">
               <NavLink to="/" className="stroke">
                 Home
               </NavLink>
             </li>
-            <li className="inline py-[10px] px-[25px]">
+            <li className="inline py-[10px] px-[25px] mx-[50px]">
               <NavLink to="/products" className="stroke">
                 Products
               </NavLink>
             </li>
-            <li className="inline py-[10px] pl-[25px]">
+            <li className="inline py-[10px] px-[25px] mx-[50px]">
               <NavLink
                 to="#"
-                className="stroke bg-transparent text-white"
+                className="stroke bg-transparent text-black"
                 onClick={openModal}
               >
                 <i className="fa-solid fa-cart-shopping"></i>
@@ -58,6 +58,9 @@ function Navbar() {
           <Cart modalOrNot={modalOrNot} closeModal={closeModal} />
         </Modal>
       </nav>
+      <div className="mb-[50px] mx-[50px]">
+        <hr className="" />
+      </div>
     </>
   );
 }

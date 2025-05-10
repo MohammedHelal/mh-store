@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap&family=Oswald:wght@200..700&display=swap&family=Nerko+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap&family=Playpen+Sans:wght@100..800&display=swap&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap&family=Oswald:wght@200..700&display=swap&family=Nerko+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap&family=Playpen+Sans:wght@100..800&display=swap&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -12,7 +12,6 @@
   font-family: "Noto Sans", "Lucida Sans Regular", "Lucida Grande", Verdana,
     "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   line-height: 1.5;
-  letter-spacing: 0.75px;
   font-weight: 300;
 
   --background-color: #ffffff;
@@ -65,14 +64,14 @@ h3 {
 
 h4 {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 40px;
-  margin: 15px 0;
+  margin: 35px 0;
 }
 
 h5 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 32px;
   margin: 15px 0;
 }
