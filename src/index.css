@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap&family=Oswald:wght@200..700&display=swap&family=Nerko+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap&family=Playpen+Sans:wght@100..800&display=swap&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap&family=Oswald:wght@200..700&display=swap&family=Nerko+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap&family=Playpen+Sans:wght@100..800&display=swap&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -37,7 +37,7 @@ body,
 }
 
 h1 {
-  font-family: "Pirata One", "Noto Sans", "Lucida Sans Regular", "Lucida Grande",
+  font-family: "Montserrat", "Noto Sans", "Lucida Sans Regular", "Lucida Grande",
     Verdana, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 55px;
   font-weight: 400;
@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Pirata One", "Noto Sans", "Lucida Sans Regular", "Lucida Grande",
+  font-family: "Montserrat", "Noto Sans", "Lucida Sans Regular", "Lucida Grande",
     Verdana, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 48px;
   font-weight: 300;
@@ -56,7 +56,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Pirata One", "Noto Sans", "Lucida Sans Regular", "Lucida Grande",
+  font-family: "Montserrat", "Noto Sans", "Lucida Sans Regular", "Lucida Grande",
     Verdana, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 40px;
   font-weight: 300;
